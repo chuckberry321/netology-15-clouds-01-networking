@@ -47,7 +47,8 @@ Terraform detected the following changes made outside of Terraform since the las
       - labels                    = {} -> null
       - metadata                  = {
           - "ssh-keys" = <<-EOT
-                vagrant:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gDyT6NsUd9r4ac51FZvATxaIB0xxyqTUckMH6T7D0yibU7uWYbQ/8IJr1ildqHrY/eGWgiwSjgsCqVO7g1hc8CT7SJOiQgezElEhqbaA8dqzwxPQ/pjc+lWq59vrVgZwnRLFPMkgSIFsD84/gr7PDElrUGmGVZD8g39UMJaWlyizzOWlcEErxMWuN3shWcuqgoN0b0DonyqnSoNjLEme5RQEbZP2PVT5pjijY1xR2hf3nxXE7d0JS8u/mw08o35NxvU3UjYMchAak2hEa7+0/8xDPtU/1PooQE5DSINUqk0gzYD9NohYPMACDkthBU+lBMU0CUPo7bK0Q+kKBUXL vagrant@vagrant
+                vagrant:ssh-rsa 
+                
             EOT
         } -> null
       - name                      = "nat-instance" -> null
@@ -113,7 +114,8 @@ Terraform detected the following changes made outside of Terraform since the las
                     shell: /bin/bash
                     sudo: ['ALL=(ALL) NOPASSWD:ALL']
                     ssh-authorized-keys:
-                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gDyT6NsUd9r4ac51FZvATxaIB0xxyqTUckMH6T7D0yibU7uWYbQ/8IJr1ildqHrY/eGWgiwSjgsCqVO7g1hc8CT7SJOiQgezElEhqbaA8dqzwxPQ/pjc+lWq59vrVgZwnRLFPMkgSIFsD84/gr7PDElrUGmGVZD8g39UMJaWlyizzOWlcEErxMWuN3shWcuqgoN0b0DonyqnSoNjLEme5RQEbZP2PVT5pjijY1xR2hf3nxXE7d0JS8u/mw08o35NxvU3UjYMchAak2hEa7+0/8xDPtU/1PooQE5DSINUqk0gzYD9NohYPMACDkthBU+lBMU0CUPo7bK0Q+kKBUXL vagrant@vagrant
+                      - ssh-rsa 
+                      
             EOT
         } -> null
       - name                      = "public" -> null
@@ -179,7 +181,8 @@ Terraform detected the following changes made outside of Terraform since the las
                     shell: /bin/bash
                     sudo: ['ALL=(ALL) NOPASSWD:ALL']
                     ssh-authorized-keys:
-                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gDyT6NsUd9r4ac51FZvATxaIB0xxyqTUckMH6T7D0yibU7uWYbQ/8IJr1ildqHrY/eGWgiwSjgsCqVO7g1hc8CT7SJOiQgezElEhqbaA8dqzwxPQ/pjc+lWq59vrVgZwnRLFPMkgSIFsD84/gr7PDElrUGmGVZD8g39UMJaWlyizzOWlcEErxMWuN3shWcuqgoN0b0DonyqnSoNjLEme5RQEbZP2PVT5pjijY1xR2hf3nxXE7d0JS8u/mw08o35NxvU3UjYMchAak2hEa7+0/8xDPtU/1PooQE5DSINUqk0gzYD9NohYPMACDkthBU+lBMU0CUPo7bK0Q+kKBUXL vagrant@vagrant
+                      - ssh-rsa 
+                      
             EOT
         } -> null
       - name                      = "private" -> null
@@ -375,7 +378,8 @@ Terraform will perform the following actions:
                     shell: /bin/bash
                     sudo: ['ALL=(ALL) NOPASSWD:ALL']
                     ssh-authorized-keys:
-                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gDyT6NsUd9r4ac51FZvATxaIB0xxyqTUckMH6T7D0yibU7uWYbQ/8IJr1ildqHrY/eGWgiwSjgsCqVO7g1hc8CT7SJOiQgezElEhqbaA8dqzwxPQ/pjc+lWq59vrVgZwnRLFPMkgSIFsD84/gr7PDElrUGmGVZD8g39UMJaWlyizzOWlcEErxMWuN3shWcuqgoN0b0DonyqnSoNjLEme5RQEbZP2PVT5pjijY1xR2hf3nxXE7d0JS8u/mw08o35NxvU3UjYMchAak2hEa7+0/8xDPtU/1PooQE5DSINUqk0gzYD9NohYPMACDkthBU+lBMU0CUPo7bK0Q+kKBUXL vagrant@vagrant
+                      - ssh-rsa 
+                      
             EOT
         }
       + name                      = "public"
@@ -447,7 +451,8 @@ Terraform will perform the following actions:
                     shell: /bin/bash
                     sudo: ['ALL=(ALL) NOPASSWD:ALL']
                     ssh-authorized-keys:
-                      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6gDyT6NsUd9r4ac51FZvATxaIB0xxyqTUckMH6T7D0yibU7uWYbQ/8IJr1ildqHrY/eGWgiwSjgsCqVO7g1hc8CT7SJOiQgezElEhqbaA8dqzwxPQ/pjc+lWq59vrVgZwnRLFPMkgSIFsD84/gr7PDElrUGmGVZD8g39UMJaWlyizzOWlcEErxMWuN3shWcuqgoN0b0DonyqnSoNjLEme5RQEbZP2PVT5pjijY1xR2hf3nxXE7d0JS8u/mw08o35NxvU3UjYMchAak2hEa7+0/8xDPtU/1PooQE5DSINUqk0gzYD9NohYPMACDkthBU+lBMU0CUPo7bK0Q+kKBUXL vagrant@vagrant
+                      - ssh-rsa 
+                      
             EOT
         }
       + name                      = "private"
@@ -595,7 +600,7 @@ yandex_compute_instance.nat-instance: Creation complete after 1m4s [id=epditcvu5
 
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 vagrant@vagrant:~/netology-15-clouds-01-networking$
-```
+tf```
 
 Подключаемся к вирталке public и проверяем наличие интернета
 ```
