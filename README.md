@@ -16,7 +16,7 @@
 
 ### Ответ:
 
-Так как данных для terraform не много, сделал все в одном фале [main.tf] (main.tf)
+Так как данных для terraform не много, сделал все в одном фале [main.tf](main.tf)
 
 Вывод `terraform apply`
 
