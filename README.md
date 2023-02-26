@@ -600,7 +600,8 @@ yandex_compute_instance.nat-instance: Creation complete after 1m4s [id=epditcvu5
 
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 vagrant@vagrant:~/netology-15-clouds-01-networking$
-tf```
+```
+</details>
 
 Подключаемся к вирталке public и проверяем наличие интернета
 ```
